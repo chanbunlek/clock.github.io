@@ -1,0 +1,32 @@
+[id*="hours"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#hours { transform: rotate(90deg); }
+
+#hours-1 { transform: rotate(120deg); }
+
+#hours-2 { transform: rotate(150deg); }
+
+#hours-3 { transform: rotate(180deg); }
+
+#hours-4 { transform: rotate(210deg); }
+
+#hours-5 { transform: rotate(240deg); }
+
+[id*="hour"] #center {
+    width: 730px;
+    height: 20px;
+    background: black;
+    opacity: 0;
+}
+
+[id*="hour"] #point {
+    width: 30px;
+    height: 20px;
+    background: black;
+    box-shadow: 1px 1px 5px black;
+}

@@ -1,0 +1,143 @@
+.frame {
+    --size: 800px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: inset 50px 50px 100px rgba(0, 0, 0, 0.8), inset -50px -50px 100px rgba(0, 0, 0, 0.8), 1px 20px 50px black;
+    border: 10px solid black;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://logodix.com/logo/1159316.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(1.5);
+    z-index: 0;
+}
+
+.frame::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: blue;
+    border-radius: 50%;
+    box-sizing: border-box;
+    filter: opacity(0.3);
+    box-shadow: 1px 1px 5px black;
+    z-index: 3;
+}
+
+.frame::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: goldenrod;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#pointer-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: rotate(90deg);;
+    position: absolute;
+    width: 750px;
+    height: auto;
+}
+
+#pointer-s::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#pointer-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 750px;
+    height: auto;
+}
+
+#pointer-m::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#pointer-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 650px;
+    height: auto;
+}
+
+#pointer-h::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#sub-s-1 {
+    width: 450px;
+    height: 5px;
+    background: red;
+    box-shadow: 1px 1px 5px black;
+}
+
+#sub-s-2 {
+    width: 350px;
+    height: 20px;
+}
+
+#sub-m-1 {
+    width: 450px;
+    height: 15px;
+    background: gray;
+    box-shadow: 1px 1px 15px black;
+}
+
+#sub-m-2 {
+    width: 350px;
+    height: 20px;
+}
+
+#sub-h-1 {
+    width: 450px;
+    height: 20px;
+    background: black;
+    box-shadow: 1px 1px 20px black;
+}
+
+#sub-h-2 {
+    width: 350px;
+    height: 20px;
+}

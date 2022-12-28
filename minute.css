@@ -1,0 +1,68 @@
+[id*="minute"] {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minute { transform: rotate(96deg); }
+
+#minute-1 { transform: rotate(102deg); }
+
+#minute-2 { transform: rotate(108deg); }
+
+#minute-3 { transform: rotate(114deg); }
+
+#minute-4 { transform: rotate(126deg); }
+
+#minute-5 { transform: rotate(132deg); }
+
+#minute-6 { transform: rotate(138deg); }
+
+#minute-7 { transform: rotate(144deg); }
+
+#minute-8 { transform: rotate(156deg); }
+
+#minute-9 { transform: rotate(162deg); }
+
+#minute-10 { transform: rotate(168deg); }
+
+#minute-11 { transform: rotate(174deg); }
+
+#minute-12 { transform: rotate(186deg); }
+
+#minute-13 { transform: rotate(192deg); }
+
+#minute-14 { transform: rotate(198deg); }
+
+#minute-15 { transform: rotate(204deg); }
+
+#minute-16 { transform: rotate(216deg); }
+
+#minute-17 { transform: rotate(222deg); }
+
+#minute-18 { transform: rotate(228deg); }
+
+#minute-19 { transform: rotate(234deg); }
+
+#minute-20 { transform: rotate(246deg); }
+
+#minute-21 { transform: rotate(252deg); }
+
+#minute-22 { transform: rotate(258deg); }
+
+#minute-23 { transform: rotate(264deg); }
+
+
+[id*="minute"] #center {
+    width: 750px;
+    height: 10px;
+    opacity: 0;
+}
+
+[id*="minute"] #point {
+    width: 20px;
+    height: 5px;
+    background: black;
+    box-shadow: 1px 1px 5px black;
+}

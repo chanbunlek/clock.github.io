@@ -1,0 +1,28 @@
+#led {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 30px;
+    left: 90px;
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+    background: rgb(139, 139, 139);
+    box-shadow: 1px 1px 20px black;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Quantico', sans-serif;
+    overflow: hidden;
+}
+
+#sub-led {
+    width: 175px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+#sub-led-1 {
+    width: 60px;
+    margin: 0;
+    padding-left: 2px;
+}
